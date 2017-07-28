@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="15sp"
+        android:id="@+id/txtEscolhaPerson"
+        android:text="@string/escolha_personagem"
+        android:layout_margin="@dimen/activity_vertical_margin"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgPerson1"
+        android:src="@drawable/person_1_1"
+        android:layout_gravity="left"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imgPerson2"
+        android:layout_alignStart="@+id/imgPerson2"
+        android:layout_marginBottom="42dp"
+        android:onClick="irParaTelaCriacao"/>
+
+    <ImageView
+        android:id="@+id/imgPerson2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/person_2_1"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_below="@+id/txtEscolhaPerson"
+        android:layout_alignLeft="@+id/txtEscolhaPerson"
+        android:layout_alignStart="@+id/txtEscolhaPerson"
+        android:onClick="irParaTelaCriacao"/>
+
+    <ImageView
+        android:id="@+id/imgPerson3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/person_4_1"
+        android:layout_marginRight="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_alignBottom="@+id/imgPerson2"
+        android:layout_alignRight="@+id/txtEscolhaPerson"
+        android:layout_alignEnd="@+id/txtEscolhaPerson"
+        android:onClick="irParaTelaCriacao"/>
+
+    <ImageView
+        android:id="@+id/imgPerson4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@drawable/person_5_1"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_alignBottom="@+id/imgPerson1"
+        android:layout_alignLeft="@+id/imgPerson3"
+        android:layout_alignStart="@+id/imgPerson3"
+        android:onClick="irParaTelaCriacao"/>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txtEscolhaPerson">
+
+
+
+    </LinearLayout> -->
+
+</RelativeLayout>

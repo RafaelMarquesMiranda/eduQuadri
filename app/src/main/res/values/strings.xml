@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EduQuadrin</string>
+    <string name="title_activity_tela_principal">TelaPrincipalActivity</string>
+    <string name="sair">Sair</string>
+    <string name="ajuda">Ajuda</string>
+    <string name="criar_quadrinho">Criar Quadrinhos</string>
+    <string name="visualizar_quadrinho">Visualizar Quadrinhos</string>
+    <string name="sobre">Sobre</string>
+    <string name="nenhum_quadrinho">Nenhum quadrinho criado</string>
+    <string name="escolha_cenario">Escolha um cenário para o seu quadrinho:</string>
+    <string name="escolha_personagem">Escolha o personagem do seu quadrinho:</string>
+</resources>
